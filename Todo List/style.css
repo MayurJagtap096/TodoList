@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(#2b5876, #4e4376);
+  color: whitesmoke;
+  min-height: 100vh;
+}
+
+input {
+  border: none;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  opacity: 0.7;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #4d4d4d;
+}
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+.top {
+  width: 100%;
+}
+.mar-left {
+  margin-left: 10px;
+}
+.container {
+  margin: auto;
+  margin-top: 20px;
+  height: max-content;
+  width: 70vw;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.add {
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-left: 15px;
+  border: none;
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 10%;
+  max-height: 35vh;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 1% 10%;
+  transition: all 1s;
+}
+.remove-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  color: whitesmoke;
+  border: solid 1px whitesmoke;
+  background: transparent;
+}
+.insideList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: aliceblue;
+  border: 1px solid whitesmoke;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to right, #456276, #665d86);
+}
+.mar-bot {
+  margin-bottom: 20px;
+}
+.iconsOf {
+  display: flex;
+  flex-direction: row;
+}
+.doneBtn {
+  color: red;
+  margin-left: 10px;
+}
+.checkBtn {
+  color: rgb(23, 239, 23);
+}
+.completed {
+  margin: auto;
+  height: max-content;
+  width: 70vw;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.clist {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 10%;
+  max-height: 35vh;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 1% 10%;
+  transition: all 1s;
+}
+.inclist {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: aliceblue;
+  border: 1px solid whitesmoke;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to right, #456276, #665d86);
+}
